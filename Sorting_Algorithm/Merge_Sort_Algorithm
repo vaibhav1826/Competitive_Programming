@@ -1,3 +1,5 @@
+// recursive way of Merge sort
+
 #include <bits/stdc++.h>
 using namespace std;
 
