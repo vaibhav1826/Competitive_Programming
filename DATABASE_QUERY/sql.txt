@@ -13,3 +13,5 @@ LC 175- select firstName,lastName,city,state from Person as p LEFT JOIN Address 
 LC 183- select name as customers from Customers as c LEFT JOIN Orders as o ON c.id=o.customerId where o.customerId IS NULL;
 
 LC 182- select email from Person group by email having count(email)>1 ;
+
+LC 181- select e.name as Employee from Employee as e JOIN Employee as m on e.managerId=m.id where e.salary>m.salary;
