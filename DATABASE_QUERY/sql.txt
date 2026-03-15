@@ -2,4 +2,8 @@ LC 584 - select name from Customer where referee_id!=2 OR referee_id Is null;
 
 LC 595- select name,population,area from World where area>=3000000 OR population>=25000000;
 
-LC 
+LC 1148- select Distinct(author_id)as id from Views where author_id=viewer_id order by id ;
+
+LC 1683- select tweet_id from Tweets where length(content)>15;
+
+LC 175- select firstName,lastName,city,state from Person as p LEFT JOIN Address as a on p.personId=a.personId;
