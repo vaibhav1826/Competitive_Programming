@@ -15,3 +15,6 @@ LC 183- select name as customers from Customers as c LEFT JOIN Orders as o ON c.
 LC 182- select email from Person group by email having count(email)>1 ;
 
 LC 181- select e.name as Employee from Employee as e JOIN Employee as m on e.managerId=m.id where e.salary>m.salary;
+
+LC 176- select MAX(Distinct(salary)) as SecondHighestSalary from Employee where salary<(select MAX(salary) from Employee);
+
