@@ -1,5 +1,7 @@
 SQL Query Pratice-
 
+//Easy Level 
+
 LC 584 - select name from Customer where referee_id!=2 OR referee_id Is null;
 
 LC 595- select name,population,area from World where area>=3000000 OR population>=25000000;
@@ -16,5 +18,12 @@ LC 182- select email from Person group by email having count(email)>1 ;
 
 LC 181- select e.name as Employee from Employee as e JOIN Employee as m on e.managerId=m.id where e.salary>m.salary;
 
+LC 551 - select DISTINCT(player_id), MIN(event_date) as first_login FROM activity group by player_id;
+
+// Medium Level 
+
 LC 176- select MAX(Distinct(salary)) as SecondHighestSalary from Employee where salary<(select MAX(salary) from Employee);
+
+
+// Hard Level
 
