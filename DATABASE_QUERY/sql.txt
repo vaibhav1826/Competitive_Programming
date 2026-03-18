@@ -21,7 +21,8 @@ LC 181- select e.name as Employee from Employee as e JOIN Employee as m on e.man
 LC 551 - select DISTINCT(player_id), MIN(event_date) as first_login FROM activity group by player_id;
 
 LC 1741-select event_day as day,emp_id,SUM(out_time-in_time) as total_time from Employees group by event_day,emp_id;
-  
+
+LC 1757- select product_id from Products where low_fats=recyclable AND low_fats='Y';
 
 // Medium Level 
 
