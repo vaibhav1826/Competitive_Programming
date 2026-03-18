@@ -24,7 +24,7 @@ LC 1741-select event_day as day,emp_id,SUM(out_time-in_time) as total_time from 
 
 LC 1757- select product_id from Products where low_fats=recyclable AND low_fats='Y';
 
-
+LC 1378- select EmployeeUNI.unique_id ,name from Employees left join EmployeeUNI on Employees.id=EmployeeUNI.id ;
 
 // Medium Level 
 
@@ -38,3 +38,9 @@ LC 184- select Department.name as Department,Employee.name as Employee ,salary a
 
 // Hard Level
 
+
+
+
+Note:-
+
+--> LEFT JOIN keeps them and fills the blanks with NULL  if value is not there where as INNER JOIN deletes rows with missing matches.
