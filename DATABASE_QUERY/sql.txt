@@ -24,10 +24,13 @@ LC 1741-select event_day as day,emp_id,SUM(out_time-in_time) as total_time from 
 
 LC 1757- select product_id from Products where low_fats=recyclable AND low_fats='Y';
 
+
+
 // Medium Level 
 
 LC 176- select MAX(Distinct(salary)) as SecondHighestSalary from Employee where salary<(select MAX(salary) from Employee);
 
+LC 1070- select Distinct(product_id),year as first_year ,quantity,price from Sales where (product_id,year) in (select product_id,min(year) from Sales group by product_id);
 
 // Hard Level
 
