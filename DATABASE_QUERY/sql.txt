@@ -32,5 +32,8 @@ LC 176- select MAX(Distinct(salary)) as SecondHighestSalary from Employee where 
 
 LC 1070- select Distinct(product_id),year as first_year ,quantity,price from Sales where (product_id,year) in (select product_id,min(year) from Sales group by product_id);
 
+LC  570-select name from Employee Where id in (select managerId from Employee group by managerId  having count(managerId)>=5);
+
+
 // Hard Level
 
