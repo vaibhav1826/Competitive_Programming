@@ -1,6 +1,6 @@
 SQL Query Pratice-
 
-//Easy Level 
+------------------//Easy Level-----------------------
 
 LC 584 - select name from Customer where referee_id!=2 OR referee_id Is null;
 
@@ -26,7 +26,7 @@ LC 1757- select product_id from Products where low_fats=recyclable AND low_fats=
 
 LC 1378- select EmployeeUNI.unique_id ,name from Employees left join EmployeeUNI on Employees.id=EmployeeUNI.id ;
 
-// Medium Level 
+----------------// Medium Level--------------------- 
 
 LC 176- select MAX(Distinct(salary)) as SecondHighestSalary from Employee where salary<(select MAX(salary) from Employee);
 
@@ -35,8 +35,6 @@ LC 1070- select Distinct(product_id),year as first_year ,quantity,price from Sal
 LC  570-select name from Employee Where id in (select managerId from Employee group by managerId  having count(managerId)>=5);
 
 LC 184- select Department.name as Department,Employee.name as Employee ,salary as Salary from Employee  join Department on Employee.departmentId=Department.id  where(salary,departmentId) IN (select Max(salary),departmentId from Employee group by departmentId); 
-
-// Hard Level
 
 
 
