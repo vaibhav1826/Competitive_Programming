@@ -28,14 +28,14 @@ LC 1378- select EmployeeUNI.unique_id ,name from Employees left join EmployeeUNI
 
 ----------------// Medium Level--------------------- 
 
+LC 184- select Department.name as Department,Employee.name as Employee ,salary as Salary from Employee  join Department on Employee.departmentId=Department.id  where(salary,departmentId) IN (select Max(salary),departmentId from Employee group by departmentId); 
+
+
 LC 176- select MAX(Distinct(salary)) as SecondHighestSalary from Employee where salary<(select MAX(salary) from Employee);
 
 LC 1070- select Distinct(product_id),year as first_year ,quantity,price from Sales where (product_id,year) in (select product_id,min(year) from Sales group by product_id);
 
 LC  570-select name from Employee Where id in (select managerId from Employee group by managerId  having count(managerId)>=5);
-
-LC 184- select Department.name as Department,Employee.name as Employee ,salary as Salary from Employee  join Department on Employee.departmentId=Department.id  where(salary,departmentId) IN (select Max(salary),departmentId from Employee group by departmentId); 
-
 
 
 
