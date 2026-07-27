@@ -40,5 +40,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0062-unique-paths) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0300-longest-increasing-subsequence) |
+## Math
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
