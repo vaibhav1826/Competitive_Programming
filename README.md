@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0001-two-sum) |
+| [0053-maximum-subarray](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0053-maximum-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0300-longest-increasing-subsequence) |
 ## Binary Search
 |  |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0062-unique-paths) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0300-longest-increasing-subsequence) |
 ## Math
@@ -52,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0062-unique-paths) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/vaibhav1826/Competitive_Programming/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
